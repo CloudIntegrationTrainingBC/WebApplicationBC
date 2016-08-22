@@ -10,11 +10,10 @@ namespace WebApplicationBC.Controllers
     {
         public ActionResult Index()
         {
-            for(Int32 i=0; i<500; i++)
+            for (Int32 i = 0; i < 500; i++)
             {
                 string test = "1";
             }
-
             return View();
         }
 
